@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutapp"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+    />
+    <TextView
+        android:id="@+id/abouttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About the app"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/aboutdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM DEVELOPMENT FOR HEALTH SCREENING ON MOBILE APPLICATION"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/aboutdescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Computer Science, Electronics
+and Electrical Engineering"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/aim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="AIM"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/aboutdescription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The aim of creating this app are to make it paperless instead of printing and using a ton of papers and card just to print medical reports, medicine prescription and making an appointment.  It is also convenient for people to bring it everywhere and not easily lose the paper.  Flexible and fast for making and changing appointment. "
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Developed by"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/developername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="DK Nurul Mawaddah Pg Idris"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+        android:id="@+id/lcb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lcb"
+            android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:id="@+id/chester"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chester"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:onClick="back"
+        android:text="Back"
+        android:textColor="@color/white" />
+
+</LinearLayout>

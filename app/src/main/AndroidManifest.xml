@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthscreening">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/xml_permission_configuration"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".paymentdetails"></activity>
+        <activity android:name=".editprofile" />
+        <activity android:name=".MessageDetails" />
+        <activity android:name=".aboutapp" />
+        <activity android:name=".QRReader" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SecurityQuestion" />
+        <activity android:name=".booking.booking5" />
+        <activity android:name=".booking.booking4" />
+        <activity android:name=".booking.booking3" />
+        <activity android:name=".booking.booking2" />
+        <activity android:name=".booking.booking1" />
+        <activity android:name=".QrCode" />
+        <activity android:name=".AppointmentDetails" />
+        <activity android:name=".register" />
+        <activity android:name=".ClinicMain" />
+        <activity
+            android:name=".ClinicLogin"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

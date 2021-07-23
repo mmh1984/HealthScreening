@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Health Screening</string>
+    <string name="logo_description">App Logo</string>
+    <string name="btn_enter">Enter</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="time_array">
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+
+    </string-array>
+
+    <string-array name="security_question">
+        <item>In what town or city did your parents meet?</item>
+        <item>What primary school did you attend?</item>
+        <item>What are the last five digits of your drivers license number?</item>
+        <item>In what town or city did your parents meet?</item>
+        <item>What was your childhood nickname?</item>
+        <item>What was your dream job as a child?</item>
+        <item>Who was your childhood hero?</item>
+        <item>What is your preferred musical genre?</item>
+
+
+    </string-array>
+    <string name="title_activity_forgotpassword">forgotpassword</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

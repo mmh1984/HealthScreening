@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecurityQuestion"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/inverse"
+        android:padding="10sp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="Security Questions"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/warning"
+            android:text="Security questions will allow you to reset your password in case its forgotten"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical" android:background="@drawable/borders">
+        <TextView
+            android:id="@+id/tvsecurity1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Question #1 (not set)"/>
+        <Spinner
+            android:id="@+id/spsec1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borders"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etsecurityanswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:lines="4"
+            android:hint="your answer"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borders"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical" android:background="@drawable/borders">
+        <TextView
+            android:id="@+id/tvsecurity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Question #2 (not set)"/>
+        <Spinner
+            android:id="@+id/spsec2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borders"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etsecurityanswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="your answer"
+            android:textSize="12sp"
+            android:lines="4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borders"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnupdatesecurity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/primary"
+            android:onClick="button_click"
+            android:text="Update"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/warning"
+            android:onClick="button_click"
+            android:text="Cancel"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
